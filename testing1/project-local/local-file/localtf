@@ -1,0 +1,5 @@
+resource "local_file" "mine"{
+   filename = "E:/IT-Docs/Terraform/local-file/test.txt"
+   content = " Create a test file "
+   file_permission = "0755"
+ }
